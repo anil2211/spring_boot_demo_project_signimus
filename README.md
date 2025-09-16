@@ -59,7 +59,8 @@ docker build -t springboot-app .
 docker run -p 2020:8989 springboot-app
 
 App available at 👉 http://localhost:2020/get-data
-
+docker ps
+ docker run --name mysql-db --network spring-net -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=your_db -e MYSQL_USER=your_user -e MYSQL_PASSWORD=your_pass -p 3306:3306 -d mysql
 🔹 3. Run with Docker Compose (App + MySQL)
 docker-compose up --build
 
