@@ -7,7 +7,7 @@ on:
 
 jobs:
     build:
-        runs-on: ubutu-latest
+        runs-on: ubuntu-latest
         steps:
             # repository checkout
             - name: Checkout source code
@@ -23,4 +23,3 @@ jobs:
             #  build with maven
             - name: Build with maven
               run: mvn -B package --file pom.xml
-              
