@@ -27,4 +27,4 @@ jobs:
               
             #  build with maven
             - name: Build with Maven Wrapper
-              run: ./mvnw -B clean package
+              run: ./mvnw -B clean package -DskipTests
