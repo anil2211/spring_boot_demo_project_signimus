@@ -78,3 +78,5 @@ docker-compose down
 Method	Endpoint	Description
 GET	/get-data	Returns a greeting message
 POST	/save-user	Saves a new user in DB
+
+### create CI pipeline for github actions
