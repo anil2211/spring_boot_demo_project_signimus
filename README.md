@@ -80,3 +80,7 @@ GET	/get-data	Returns a greeting message
 POST	/save-user	Saves a new user in DB
 
 ### create CI pipeline for github actions
+# My Spring Boot App
+
+![Build](https://github.com/anil2211/spring_boot_demo_project_signimus/actions/workflows/ci.yml/badge.svg)
+anil2211/spring_boot_demo_project_signimus/.github/workflows/ci.yml@refs/heads/main
